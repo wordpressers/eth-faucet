@@ -1,0 +1,38 @@
+{
+  "name": "eth-faucet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "envify"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "browserify": "^14.1.0",
+    "cors": "^2.8.1",
+    "envify": "^4.0.0",
+    "eth-query": "^2.1.2",
+    "ethereumjs-tx": "^1.1.2",
+    "ethereumjs-util": "^5.1.1",
+    "ethjs-query": "^0.2.6",
+    "express": "^4.14.0",
+    "express-rate-limit": "^2.5.0",
+    "h": "^0.1.0",
+    "metamascara": "^1.2.2",
+    "request": "^2.75.0",
+    "web3": "^1.0.0-beta.20",
+    "web3-provider-engine": "^13.2.9",
+    "xhr": "^2.2.2",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No tests yet...\"",
+    "start": "MASCARA_SUPPORT='yes' node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
